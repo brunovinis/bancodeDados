@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+        <link rel="stylesheet" href="2campos.css">
+    </head>
+    <body>
+        <reader>
+            <h1>Bem-vindo ao site de pesquisa de cadastros em banco de dados </h1>
+        </reader>
+        <div class meio>
+        <p>Por favor preencha o campo abaixo para realizar a  sua pesquisa</p>
+        <form method="post" action="conecta-banco-consulta.php">
+            <input type="text" name="dado[]"  id="ID"checked placeholder= "Digite o seu ID"><br>
+            <input type="text" name="dado[]"  id="ID"checked placeholder= "Digite o seu Nome"><br>
+            <input type="text" name="dado[]"  id="ID"checked placeholder= "Digite o seu Endereço"><br>
+            <input type="text" name="dado[]"  id="ID"checked placeholder= "Digite o seu Bairro"><br>
+            <input type="text" name="dado[]"  id="ID"checked placeholder= "Digite o seu Cidade"><br>
+            <input type="text" name="dado[]"  id="ID"checked placeholder= "Digite o seu Estado"><br>
+            <input type="text" name="dado[]"  id="ID"checked placeholder= "Digite o seu Cep"><br>
+            <br><br>
+            <input type="submit" value="Pesquisar" class="enviar">
+        </form>  
+    </body>  
+</html>

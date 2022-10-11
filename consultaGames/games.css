@@ -1,0 +1,67 @@
+h1{
+    text-align: center;
+    background-color: rgb(132, 192, 192); 
+}
+
+.topicos{
+    position: relative;
+    right: 20px; 
+    list-style: none;
+    
+    
+    
+}
+.tabela{
+    width: 20%;
+}
+
+
+.enviar{
+    border-color: #192dc7;
+	border-radius: 50px;
+
+	
+
+}
+.enviar:hover{
+	background-color: #19c7c7;
+	width: 200px;
+}
+
+body{
+	background-color: #4a5252;
+	text-align: center;
+
+}
+
+.primeiraTabela{
+	position: relative;
+	left: 25%;
+}
+table{
+	position: relative;
+	
+}
+.botao{
+    border-color: #192dc7;
+	border-radius: 50px;
+	
+}
+.botao:hover{
+	background-color: #19c7c7;
+}
+h3:hover{
+	color: #19c7c7;
+	
+}
+h3, h2{
+	text-decoration: underline
+}
+
+
+    
+  
+
+table{
+	box-shadow: 10px 10px 10px 0 #000000;
+}

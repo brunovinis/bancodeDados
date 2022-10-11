@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+    </head>
+    <body>
+        <reader>
+            <h1>Bem-vindo ao site de cadestro</h1>
+        </reader>
+        <p>Por favor preencha os capos abaixo para se cadastrar</p>
+        <form method="post" action="cadastro.php">
+            <div>   
+                <label for="texto">1)Digite o seu nome: </label>
+                <br>
+                <input type="text" id="nome" name="nome"  required>
+                <br><br>
+                <label for="texto">2)Digite o seu endereço: </label>
+                <br>
+                <input type="text" id="endereco" name="endereco"  required>
+                <br><br>
+                <label for="bairro">3)Digite o nome do seu bairro: </label>
+                <br>
+                <input type="text" id="bairro" name="bairro" required>
+                <br></br>
+                <label for="cidade">4)Digite o nome da sua cidade: </label>
+                <br>
+                <input type="text" id="cidade" name="cidade" required>
+                <br><br>
+                <label for="estado">5)informe o seu estado: </label>
+                <br>
+                <input type="text" id="estado" name="estado" required>
+                <br><br>
+                <label for="cep">5)informe o seu cep: </label>
+                <br>
+                <input type="number" id="cep" name="cep" required>
+                <br><br>
+            </div>
+            <input type="submit" value="Cadastrar" class="enviar">
+        </form>
+
+    </body>

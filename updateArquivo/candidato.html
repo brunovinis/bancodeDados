@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+    <meta charset="UTF-8">
+    <center>
+        <head>
+            <title>Cadastro de candidatos</title>
+        </head>
+        <body>
+            <h1>Site de cadastro de candidatos</h1>
+            <h2>Preecha os campos abaixo para completar o cadastro</h2>
+
+            <form action="candidato.php" method="post" enctype="multipart/form-data" accept=".jpg, .png">
+                <br>
+                <label>Informe o nome do candidato:</label> 
+                <br>
+                <input type="text" name="nome" >
+                <br><br>
+
+                <label>Informe o número do candidato:</label> 
+                <br>
+                <input type="number" name="numero" >
+                <br><br>
+
+                <label>Insira abaixo uma foto do seu candidato:</label> 
+                <br><br>
+                    <input type="file" name="foto"/>
+                <br><br>
+                <input type="submit" value="Enviar" />
+            </form>
+
+            <form action="vercandidatos.php">
+                <p>Clique no botão abaixo para ver a tabela dos candidatos</p>
+                <input type="submit" value="Ver Tabela" />
+            </form>
+        </body>
+    </center>       
+</html>
