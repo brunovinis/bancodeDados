@@ -1,0 +1,23 @@
+header{
+    background-color: darkturquoise;
+    text-align: center;
+}
+
+.enviar{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border-radius: 5px;
+}
+.enviar:hover{
+    background-color: darkturquoise;
+    transform: scale(1.2);
+    border-radius: 5px;
+    cursor: pointer;
+}
+p{
+    text-align: center;
+   
+}
+form{
+    text-align: center;
+}

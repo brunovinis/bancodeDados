@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+        <link rel="stylesheet" href="consulta1.css">
+    </head>
+    <body>
+        <header>
+            <h1>Bem-vindo a pagina de consulta </h1>
+            
+                <nav>
+                    <ul class="topicos">
+                        <li><a href="home_carro.html">Home</a></li>
+                        <li><a href="consulta.html">Consulta</a></li>
+                        <li><a href="cadastro.html">Cadastro</a></li>
+                        <li><a href="delete_cadastro.html">Deletar</a></li>
+                        <li><a href="update.html">Configurar</a></li>
+                        <li><a href="update_delete.php">Manusear tabela</a></li>
+                    </ul>
+                </nav>    
+           
+        </header>
+        <div class meio>
+        <p>Por favor Preencha os campos que você deseja pesquisar</p>
+        <form method="post" action="consulta_carro.php">
+        
+            <label for="name">
+                Preencha AQUI:
+                <br><br>
+                    ID: 
+                <input type="text" name="dado[]"  id="ID"checked placeholder= "Digite o ID Ex: 1,2,3...">
+                    <br>
+                    Placa:
+                <input type="text" name="dado[]" id="Placa"checked placeholder= "Digite a placa do carro " >
+                    <br>
+                    Chassi:
+                <input type="text" name="dado[]" id="Chassi"checked placeholder= "Digite o chassi do carro">
+                    <br>
+                    Modelo:
+                <input type="text" name="dado[]" id="Modelo"checked placeholder= "Digite o modelo do carro">
+                    <br>
+                    Marca:
+                <input type="text" name="dado[]" id="Marca"checked placeholder= "Digite a marca do carro">
+                    <br>
+                    Cor:
+                <input type="text" name="dado[]" id="Cor"checked placeholder= "Digite a cor do carro">
+                    
+            </label>
+           
+            <br><br>
+            <input type="submit" value="Procurar carro(s)" class="enviar">
+        </from>
+            </div>
+    </body>
+
+<html>
+       

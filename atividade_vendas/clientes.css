@@ -1,0 +1,94 @@
+header{
+    text-align: center;
+    background-color: rgb(255, 238, 0); 
+}
+
+.topicos{
+    position: relative;
+    right: 20px; 
+    list-style: none;
+    
+    
+    
+}
+
+nav {
+	
+	
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 21px;
+	text-decoration: none;
+}
+nav a:hover {
+	color: #19c7c7;
+	text-decoration: underline;
+}
+.enviar{
+    border-color: #192dc7;
+	border-radius: 50px;
+
+	
+
+}
+.enviar:hover{
+	background-color: #19c7c7;
+	width: 200px;
+}
+
+body{
+	background-color: #536e6e;
+	text-align: center;
+
+}
+
+.primeiraTabela{
+	position: relative;
+	left: 25%;
+}
+table{
+	position: relative;
+	
+}
+.botao{
+    border-color: #192dc7;
+	border-radius: 50px;
+	
+}
+.botao:hover{
+	background-color: #19c7c7;
+}
+h3:hover{
+	color: #19c7c7;
+	
+}
+h3, h2{
+	text-decoration: underline
+}
+
+#linha-vertical {
+    
+    border-right: 1px solid red;
+}
+#linha-horizontal {	
+    
+    border: 1px solid #000;
+}
+footer{
+    
+	background:  rgb(255, 238, 0);
+	padding: 40px 0;
+}
+table{
+	box-shadow: 10px 10px 10px 0 #000000;
+}

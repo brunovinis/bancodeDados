@@ -1,0 +1,44 @@
+header{
+    text-align: center;
+    background-color: rgb(255, 238, 0);
+}
+
+.topicos{
+    position: relative;
+    right: 20px; 
+    list-style: none;
+}
+
+nav {
+	
+	
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 21px;
+	text-decoration: none;
+}
+nav a:hover {
+	color: #19c7c7;
+	text-decoration: underline;
+}
+
+body{
+	background-color: #536e6e;
+	text-align: center;	
+	background-image: url("li.jpg");
+	
+}
+
+h2{
+	background-color: rgb(255, 238, 0);
+}

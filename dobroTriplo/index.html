@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <bory>
+        <header>
+            <h1>Bem-vindo ao site</h1>
+            <h2>Descubra os dobros ou triplos do seu número</h2>
+        </header>
+        <p>Preecha os campos abaixo para  e clique no botão para gerar sua lista</p>
+        
+            <form method="post" action="dobrotriplo.php">
+                <div></div>
+                    <label for="escolha">Você deseja que calcule o dobro ou triplo desse numero? </label>
+                    <br>
+                    <input type="radio" id="escolha" name="escolha" value="Dobro" required>Dobro
+                    <br>
+                    <input type="radio" id="escolha" name="escolha" value="Triplo" required>Triplo
+                    <br><br>
+                    <label for="numero">Escolha seu numero: </label>
+                    <br>
+                    <input type="number" id="numero" name="numero" value="numero"required>
+                    <br></br>
+                    <label for="numero">Escolha quantas vezes seu numero sera multiplicado: </label>
+                    <br>
+                    <input type="number" id="repetir" name="repetir" value="repetir"required>
+                    <br></br>
+                </div>
+                <input type="submit" value="Calcular" class="enviar">
+            </form>
+    </bory>

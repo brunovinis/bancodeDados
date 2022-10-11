@@ -1,0 +1,2 @@
+Escrevendo no arquivo<br>teste numero = 1
+exercicio4 teste

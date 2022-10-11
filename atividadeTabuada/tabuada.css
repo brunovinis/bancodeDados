@@ -1,0 +1,21 @@
+header{
+    text-align: center;
+    background-color: rgb(123, 255, 0);
+}
+p{
+    text-align: center;
+}
+form{
+    text-align: center;
+}
+.enviar{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border-radius: 5px;
+}
+.enviar:hover{
+    background-color: rgb(209, 0, 91);
+    transform: scale(1.2);
+    border-radius: 5px;
+    cursor: pointer;
+}

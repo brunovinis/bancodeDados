@@ -1,0 +1,49 @@
+header{
+    text-align: center;
+    background-color: lightblue;
+ 
+}
+
+.topicos{
+    position: relative;
+    right: 20px; 
+    list-style: none;
+    
+    
+    
+}
+body{
+    background-image: url("ferrari.jpg");
+}
+
+nav {
+	
+	
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 21px;
+	text-decoration: none;
+}
+nav a:hover {
+	color: #19c776;
+	text-decoration: underline;
+}
+
+#linha-vertical {
+    
+    border-right: 1px solid red;
+}
+#linha-horizontal {	
+    
+    border: 1px solid #000;
+}

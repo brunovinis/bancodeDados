@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+        <link rel="stylesheet" href="cadastro.css">
+    </head>
+    <body>
+        <header>
+            <h1>Bem-vindo a pagina de cadestro</h1>
+            <nav>
+                <ul class="topicos">
+                    <li><a href="home_carro.html">Home</a></li>
+                    <li><a href="consulta.html">Consulta</a></li>
+                    <li><a href="cadastro.html">Cadastro</a></li>
+                    <li><a href="delete_cadastro.html">Deletar</a></li>
+                    <li><a href="update.html">Configurar</a></li>
+                    <li><a href="update_delete.php">Manusear tabela</a></li>
+                </ul>
+            </nav>    
+        </header>
+        <div>
+            <p>Por favor preencha os capos abaixo para se cadastrar</p>
+            <form method="post" action="cadastro.php">
+                
+                    <br>
+
+                    <!--<label for="id">Digite o id do carro: </label>
+                    <br>
+                    <input type="text" id="nome"  name="nome" required>
+                    <br><br>-->
+
+                    <label for="placa">Digite a placa do carro: </label>
+                    <br>
+                    <input type="text" id="placa" name="placa"  required>
+                    <br><br>
+
+                    <label for="chassi">Digite o chassi do carro: </label>
+                    <br>
+                    <input type="text" id="chassi" name="chassi" required>
+                    <br></br>
+
+                    <label for="modelo">Digite o modelo do carro: </label>
+                    <br>
+                    <input type="text" id="modelo" name="modelo" required>
+                    <br><br>
+
+                    <label for="marca">informe a marca do carro: </label>
+                    <br>
+                    <input type="text" id="marca" name="marca" required>
+                    <br><br>
+
+                    <label for="cep">informe a cor do carro: </label>
+                    <br>
+                    <input type="text" id="cor" name="cor" required>
+                    <br><br>
+                    
+                
+            
+                <input type="submit" value="Cadastrar" class="enviar">
+            </form>
+        </div>
+    </body>
+</html>
